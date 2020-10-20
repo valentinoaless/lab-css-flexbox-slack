@@ -5,3 +5,54 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+
+body {
+    font-family: sans-serif;
+}
+
+nav {
+    position: fixed;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav img {
+    width: 20%;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    padding: 10px;
+    color: #777;
+}
+
+#header-img {
+    margin-top: 60px;
+}
+
+#workspaces {
+    border: 1px solid #777;
+    border-radius: 4px;
+
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.get-started {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
