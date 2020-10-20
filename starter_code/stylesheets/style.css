@@ -6,6 +6,10 @@ paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
 
+html, body {
+    /* width: 1000px; */
+}
+
 body {
     font-family: sans-serif;
 
@@ -69,6 +73,7 @@ header {
 }
 
 .get-started h1 {
+    font-family: serif;
     font-size: 3em;
     color:#444;
 }
@@ -107,11 +112,98 @@ main {
     align-items: center;
 }
 
-.discover button {
-    padding: 20px 50px;
+.discover h2 {
+    font-family: serif;
+    font-size: 3em;
+    color:#444;
 }
 
+.discover button {
+    padding: 20px 50px;
+    border-radius: 5px;
+    color: #4049aa;
+    border: 2px solid #4049aa;
+}
 
+footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 100px;
+    padding-bottom: 100px;
+}
+footer div{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+footer ul{
+    display: flex;
+    align-content: flex-start;
+    list-style-type: none;
+    flex-direction: column;
+    line-height: 2.5em;
+}
 
+.pg-footer {
+    display: flex;
 
+}
+
+.pg-footer img {
+    align-self: center;
+}
+
+.try {
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+#try-for-free {
+    font-family: serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.try button {
+    width: 150px;
+    height: 50px;
+    background-color: #4049aa;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.pg-bottom {
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eee; 
+}
+
+#terms {
+    display: flex;
+    list-style-type: none;
+}
+
+#terms li {
+    padding: 10px;
+}
+
+#social-links {
+    display: flex;
+    vertical-align: center;
+    
+}
+
+#social-links img {
+    width: 8%;
+}
+
+#social-links > * {
+    padding: 10px;
+}
 
