@@ -53,6 +53,36 @@ header {
     flex-direction: column;
 }
 
+footer{
+    display: flex;
+    align-items: center;
+}
 
+footer div{
+    display: flex;
+    flex-direction: row;
+}
 
+footer ul{
+    display: flex;
+    align-content: flex-start;
+    list-style-type: none;
+    flex-direction: column;
+    padding-left: 30%;
+}
 
+#iso-slack{
+    align-content: flex-start;
+    justify-items: flex-start;
+    height: 80px;
+}
+
+.bottomnav{
+    display: flex;
+    padding-top: 20%;
+}
+
+.bottomnav ul{
+    display: flex;
+    flex-direction: row;
+}
