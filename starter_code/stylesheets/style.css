@@ -8,18 +8,26 @@ nav grey: #5b5e6d;
 
 body {
     font-family: sans-serif;
+
 }
 
 nav {
+    width: 100%;
     position: fixed;
     top: 0px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: white;
+    border-top: 2px solid #ccc;
+    border-bottom: 2px solid #ccc;
+
+    
 }
 
 nav img {
     width: 20%;
+    max-width: 100px;
 }
 
 nav ul {
@@ -45,13 +53,64 @@ nav ul li {
 header {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     align-items: center;
 }
 
 .get-started {
     display: flex;
     flex-direction: column;
+    max-width: 30%;
 }
+
+.get-started p {
+    line-height: 1.5em;
+    color: #777;
+}
+
+.get-started h1 {
+    font-size: 3em;
+    color:#444;
+}
+
+.get-started button {
+    width: 150px;
+    height: 50px;
+    background-color: #4049aa;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    background-color: #eee;
+}
+
+.partners {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.partners img {
+    width: 33%;
+    box-sizing: border-box;
+    padding: 50px 80px;
+}
+
+.discover {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.discover button {
+    padding: 20px 50px;
+}
+
 
 
 
